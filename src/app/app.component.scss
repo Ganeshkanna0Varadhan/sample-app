@@ -1,0 +1,33 @@
+.container {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+    .content {
+        height: 10%;
+        width: 100%;
+
+        input[type="text"] {
+            height: 100%;
+            width: 77%;
+            margin-right: 0.1%;
+        }
+        input[type="button"] {
+            height: 110%;
+            width: 20%;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 3px;
+        }
+    }
+
+            
+    h2 {
+        margin-top: 3%;
+        color: green;
+    }
+}
