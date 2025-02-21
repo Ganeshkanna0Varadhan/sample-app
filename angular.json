@@ -18,7 +18,6 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/first-app",
-            "baseHref": "/my-angular-app/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
